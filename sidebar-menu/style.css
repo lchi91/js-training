@@ -1,0 +1,108 @@
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    width: 20em;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    width: 20em;
+    color: #000000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.container {
+    margin: 0em;
+    padding: 0em;
+}
+
+.cui-menu {
+    display: flex;
+    flex-direction: column;    
+    width: 15rem;
+    height: 100%;
+    background-color: cadetblue;
+    padding: 0em;
+    margin: 0em;
+    position: fixed;
+}
+
+.cui-menu-header {    
+    display: grid;
+    position: relative;
+    /* height: 3em; */
+    background-color: teal;
+    justify-content: center;
+}
+
+.cui-menu-content {        
+    list-style-type: none;    
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cui-menu-footer {
+    background-color: teal;    
+    position: relative;    
+}
+
+.cui-menu-content:hover {
+    overflow: auto;
+}
+
+.cui-menu-item a {
+    display: block;    
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.cui-menu-item a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.cui-menu-container {
+    display: block;    
+}
+
+.cui-menu-collapse {
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.cui-menu-footer-content {
+    display: flex;
+}
+
+.cui-menu-footer-label {
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.cui-menu-header-label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
